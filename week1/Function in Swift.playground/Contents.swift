@@ -15,7 +15,20 @@ multiply(a: 21, b: 3223)
 
 
 //3.What is the difference between argument label and pararmeter label in function ?
-
+//Parameter Names” 和 “Argument Labels”, 其實就是function內/外名字，可以增加可讀性。
+//The use of argument labels can allow a function to be called in an expressive, sentence-like manner, while still providing a function body that is readable and clear in intent
+//單純使用argument labels的狀況在24行就會有冗字的感覺
+//func move(origin: String, destination: String) -> String {
+//    return "Move from \(origin) to \(destination)."
+//}
+//let string = move(origin: "Tokyo", destination: "Taipei")
+//print(string)
+//設計上若Parameter Namesm與Argument Labels兼用，在30行中用from跟to就可以很明顯地瞭解其解讀性
+func move(from origin: String, to destination: String) -> String {
+    return "Move from \(origin) to \(destination)."
+}
+let string = move(from: "Tokyo", to: "Taipei")
+print(string)
 
 //4.What is the return type in the following statements?
 //birthday的return type 是 String
@@ -23,7 +36,7 @@ multiply(a: 21, b: 3223)
 
 
 //Others
-//Please describe how to establish a github repo and how to upload the local projects to    github. Try to explain it as detail as possible.
+//Please describe how to establish a github repo and how to upload the local projects to github. Try to explain it as detail as possible.
 //1.先辦github帳號
 //2.開啟終端機
 //3.先cd到要上傳的檔案
