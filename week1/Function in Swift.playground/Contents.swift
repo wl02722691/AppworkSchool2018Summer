@@ -37,7 +37,7 @@ print(string)
 
 //Others
 //Please describe how to establish a github repo and how to upload the local projects to github. Try to explain it as detail as possible.
-//1.先辦github帳號
+//1.先辦github帳號cd
 //2.開啟終端機
 //3.先cd到要上傳的檔案
 //4.git init讓git開始監視檔案
