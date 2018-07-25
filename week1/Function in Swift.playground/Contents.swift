@@ -32,9 +32,8 @@ print(string)
 
 //4.What is the return type in the following statements?
 //birthday的return type 是 String
+
 //birthday的return type 是 Double
-
-
 //Others
 //Please describe how to establish a github repo and how to upload the local projects to github. Try to explain it as detail as possible.
 //1.先辦github帳號cd
