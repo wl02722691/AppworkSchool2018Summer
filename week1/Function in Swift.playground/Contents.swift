@@ -46,5 +46,5 @@ print(string)
 //7.git commit -m "寫程式目前的狀態"
 //8.git remote add origin https://github.com/wl02722691/AppworkSchool2018Summer.git（填寫在github上的http）
 //9.git remote -v 檢查一下狀態-v代表詳情
-//10.git push origin master把本地的狀態推到github
+//10.把本地的狀態推到github
 
