@@ -35,6 +35,7 @@ print(string)
 
 //birthday的return type 是 Double
 //Others
+
 //Please describe how to establish a github repo and how to upload the local projects to github. Try to explain it as detail as possible.
 //1.先辦github帳號cd
 //2.開啟終端機
@@ -43,7 +44,7 @@ print(string)
 //5.git status看一下狀態，一開始應該在branch master
 //6.輸入git add .將git放到暫存區
 //7.git commit -m "寫程式目前的狀態"
-//8.git remote add origin https://github.com/wl02722691/AppworkSchool2018Summer.git（填寫在github上的http）
+//8.git remote add origin https://github.com/wl02722691/2018SummerAppworkSchool.git（填寫在github上的http）
 //9.git remote -v 檢查一下狀態-v代表詳情
 //10.git push origin master把本地的狀態推到github
 
